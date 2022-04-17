@@ -1,0 +1,60 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+/* Basic page styling */
+body {
+	width: 40%;
+	margin: 20% auto 0 auto;
+	background-image: url('../images/paper.jpg');
+	background-color: antiquewhite;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Amatic SC", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 3rem;
+	margin-bottom: 0;
+}
+
+h3 { 
+	font-size: 2rem;
+	margin-top:0;
+}
+
+main section {
+	overflow: scroll;
+	height: 18rem;
+}
+
+/* Input form & to do list styles */
+input {
+	margin-right: 0.5rem;
+	height: 1.5rem;
+}
+
+label {
+	font-size: 1.5rem;
+	margin-top: 0;
+}
+
+div {
+	display: flex;
+	align-items: center;
+	margin-top: 1rem;
+	border-top: 1px solid black;
+}
+
+div button {
+	margin-left: 3rem;
+	position: relative;
+	right: 0;
+}
+
+/* class for checked off items, to be added/removed with js */
+.check {
+	text-decoration: line-through;
+	color:#339966;
+}
+
+
